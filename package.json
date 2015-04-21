@@ -1,0 +1,6 @@
+{
+  "name": "js-marionette",
+  "version": "0.0.1",
+  "description": "An UI testing framework for Web Apps in Firefox and Firefox OS.",
+  "author": "Evan Xd <itoyxd@gmail.com>"
+}
