@@ -18,12 +18,13 @@ Then you will get `jsmarionette.conf.js` file in the directory.
 ```
 module.exports = function(config) {
   config.set({
-    // The belows are default values.
+    host: 'b2gdesktop',
     screen: {
       width: 320,
       height: 480,
       orientation: 'landscape'
     },
+    profile: 'path/to/profile',
     files: [
       'apps/**/test/marionette/*_test.js'
     ]
